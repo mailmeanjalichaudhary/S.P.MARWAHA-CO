@@ -1,0 +1,8 @@
+{
+  "name": "Finance Luxe Tax Assistant",
+  "description": "Premium AI-powered tax assistant for Indian salaried individuals, freelancers, and business owners to optimize tax planning, calculate slabs, manage deductions, and consult an expert chatbot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

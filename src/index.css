@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;850&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Luxury Navy Slabs */
+  --color-luxe-950: #020712;
+  --color-luxe-900: #071530;
+  --color-luxe-800: #0c234b;
+  --color-luxe-700: #123366;
+  --color-luxe-600: #1a4482;
+  --color-luxe-500: #2559a4;
+
+  /* Shimmering Metallic Gold Slabs */
+  --color-gold-50: #fbf9f0;
+  --color-gold-100: #f5eed3;
+  --color-gold-200: #eadca1;
+  --color-gold-300: #dbc46d;
+  --color-gold-400: #caa743;
+  --color-gold-500: #b58925;
+  --color-gold-600: #936d1b;
+  --color-gold-700: #715214;
+}
+
+/* Custom Scrollbars for premium appearance */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #123366;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #caa743;
+}
+
+/* Print utility for high-fidelity Tax planning reports */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-card {
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    background: white !important;
+    color: black !important;
+  }
+}
